@@ -7,8 +7,7 @@ final class Library {
     private init(stockLevel:Int) {
         books = [Book]();
         for count in 1 ... stockLevel {
-            books.append(Book(author: "Dickens, Charles", title: "Hard Times",
-                stock: count))
+            books.append(Book(author: "Dickens, Charles", title: "Hard Times", stock: count))
         }
         pool = Pool<Book>(items:books);
     }

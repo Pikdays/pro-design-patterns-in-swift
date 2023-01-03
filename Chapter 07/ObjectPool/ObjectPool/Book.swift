@@ -2,6 +2,7 @@ class Book {
     let author:String;
     let title:String;
     let stockNumber:Int;
+    
     var reader:String?
     var checkoutCount = 0;
     
